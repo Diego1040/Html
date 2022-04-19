@@ -1,0 +1,17 @@
+#sect3:hover{background-color: greenyellow;
+color: red;
+font-size: x-large;}
+
+.class4:hover{background-color: black;
+color: cadetblue;
+font-size: x-large;
+border:solid red;
+border-radius: 15px ;
+transform: scale(1.1);
+
+text-align:center;
+;}
+
+div {
+    border: 1px solid darkblue; 
+}
