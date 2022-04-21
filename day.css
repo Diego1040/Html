@@ -15,3 +15,6 @@ text-align:center;
 div {
     border: 1px solid darkblue; 
 }
+
+div.container {background-color: lightblue;
+}
