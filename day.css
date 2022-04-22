@@ -12,7 +12,6 @@ transform: scale(1.1);
 text-align:center;
 ;}
 
-<<<<<<< HEAD
 
 
 
@@ -28,11 +27,11 @@ div.container {background-color: lightblue;
 #Menu-Lateral{background-color: rgb(147, 81, 194);
 height: 800px;}
 
-=======
+
 div {
     border: 1px solid darkblue; 
 }
 
 div.container {background-color: lightblue;
 }
->>>>>>> 47f998ef66858dce5b355890eb6864328bdccb53
+
