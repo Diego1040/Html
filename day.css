@@ -1,0 +1,37 @@
+#sect3:hover{background-color: greenyellow;
+color: red;
+font-size: x-large;}
+
+.class4:hover{background-color: black;
+color: cadetblue;
+font-size: x-large;
+border:solid red;
+border-radius: 15px ;
+transform: scale(1.1);
+
+text-align:center;
+;}
+
+
+
+
+div.container {background-color: lightblue;
+}
+
+#Columna{background-color: red;
+}
+
+#Titulo{background-color: gray;
+}
+
+#Menu-Lateral{background-color: rgb(147, 81, 194);
+height: 800px;}
+
+
+div {
+    border: 1px solid darkblue; 
+}
+
+div.container {background-color: lightblue;
+}
+
