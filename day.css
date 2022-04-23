@@ -8,29 +8,26 @@ font-size: x-large;
 border:solid red;
 border-radius: 15px ;
 transform: scale(1.1);
-
-text-align:center;
-;}
+text-align:center;;}
 
 
 
-
-div.container {background-color: lightblue;
-}
-
-#Columna{background-color: red;
-}
+#Principal{background-color: red;
+height: 100px;
+color: ghostwhite;}
 
 #Titulo{background-color: gray;
+text-align: center;
 }
 
 #Menu-Lateral{background-color: rgb(147, 81, 194);
-height: 800px;}
-
-
-div {
-    border: 1px solid darkblue; 
 }
+
+#Discripcion{background-color: chocolate; 
+height: 500px;}
+
+#Apartado{background-color: darkcyan;
+height:500px ;}
 
 div.container {background-color: lightblue;
 }
