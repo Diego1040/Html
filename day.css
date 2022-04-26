@@ -21,15 +21,15 @@ text-align: center;
 }
 
 #Menu-Lateral{background-color: rgb(147, 81, 194);
-height: 700px;
+height: 1000px;
 border: rgb(0, 0, 0) solid;
 }
 
 #Discripcion{background-color: chocolate; 
-height: 500px;}
+height: 800px;}
 
 #Apartado{background-color: darkcyan;
-height:500px ;}
+height:800px ;}
 
 #Anuncio{background-color:darkseagreen;
 height: 100px;
