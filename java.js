@@ -11,14 +11,15 @@ function funcional(){
 };
 
 
-function funcional1(){
-    let obj = document.getElementById("value")
-    document.getElementById("value")innerHtml=""
-
-    if obj value(value <=18)
-    console.log("Usted es mayor de edad");
-
-    if obj value(value >18)
-    console.log("Usted es menor de edad");
+function validarEdad(){
+    let edad = document.getElementById("edad").value
+    console.log(edad)
+    if (edad < 18){
+        document.getElementById("resp").innerHtml = "Es menor de edad"
+        console.log("Es menor de edad")
+    }else{
+        document.getElementById("respuesta").innerHTML = "Es mayor de edad"
+        console.log("es mayor de edad")
+    }
+    console.log("fuera del if")
 }
-
