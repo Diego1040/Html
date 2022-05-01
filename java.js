@@ -14,11 +14,12 @@ function funcional(){
 function validarEdad(){
     let edad = document.getElementById("edad").value
     console.log(edad)
-    let arreglo = (2 , 3, 4, 5 ,6 ,7)
+    
+    let arreglo = (2 , 3, 4, 5 , 6 , 7)
     
 
     if (edad < 18){
-        document.getElementById("resp").innerHTML = "Es menor de edad"
+        document.getElementById("respuesta").innerHTML = "Es menor de edad"
         console.log("Es menor de edad")
     }else{
         document.getElementById("respuesta").innerHTML = "Es mayor de edad"
@@ -30,7 +31,7 @@ function validarEdad(){
     }
     
     
-    console.log("fuera del if")
+
 }
 
 function option(){
