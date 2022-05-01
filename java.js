@@ -11,14 +11,32 @@ function funcional(){
 };
 
 
-function funcional1(){
-    let obj = document.getElementById("value")
-    document.getElementById("value")innerHtml=""
+function validarEdad(){
+    let edad = document.getElementById("edad").value
+    console.log(edad)
+    let arreglo = (2 , 3, 4, 5 ,6 ,7)
+    
 
-    if obj value(value <=18)
-    console.log("Usted es mayor de edad");
+    if (edad < 18){
+        document.getElementById("resp").innerHTML = "Es menor de edad"
+        console.log("Es menor de edad")
+    }else{
+        document.getElementById("respuesta").innerHTML = "Es mayor de edad"
+        console.log("es mayor de edad")
+    }
 
-    if obj value(value >18)
-    console.log("Usted es menor de edad");
+    for(let x =0; x <arreglo.length; x++){
+        console.log(arreglo[x])
+    }
+    
+    
+    console.log("fuera del if")
 }
 
+function option(){
+
+    let obj =document.getElementById("genero")
+    console.log(obj.value)
+
+
+}

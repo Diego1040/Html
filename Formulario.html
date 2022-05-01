@@ -67,13 +67,26 @@ crossorigin="anonymous">
         
     </div>
 
-    <h1>Ingrese edad</h1>
+    <h1>Prueba Consola</h1>
     <input type="text"  placeholder="////////" id="text" > 
     <input type="submit" onclick="funcional()"> <br> <br>
 
+
     <h1> Test edad</h1>
-    <h4> <p> <input type="text" placeholder="Ingrese aqui" id="value"> </p></h4>
-    <input type="submit" onclick="funcional1()">
+    <div id="resp"></div>
+    <input type="number" placeholder="Ingrese aqui" name="edad" id="edad">
+    <button onclick="validarEdad()">Enviar</button> <span id="respuesta"></span> <br><br>
+
+    <h4>Seleccione genero</h4>
+    <select id="genero">
+      <option value="0" >Seleccione</option>
+      <option value="1">Hombre</option>
+      <option value="2">Mujer</option>
+    </select>
+
+    <button onclick="option()"> Enviar</button>
+    <span id="genero"></span>
+
 
     <br>
 
