@@ -24,9 +24,9 @@ function validarEdad(){
     }else{
         document.getElementById("respuesta").innerHTML = "Es mayor de edad"
         console.log("es mayor de edad")
-    }
+    
 
-    for(let x =0; x <arreglo.length; x++){
+    }for(let x =0; x <arreglo.length; x++){
         console.log(arreglo[x])
     }
     
@@ -40,4 +40,34 @@ function option(){
     console.log(obj.value)
 
 
+}
+
+
+let funcion = () => {
+    4>5?alert("Hola Mundo"):alert("else")
+
+    
+    if (4>5){
+        alert("Hola Mundo")
+    }else{
+        alert("else")
+    }
+}
+
+
+
+let entry = () => {
+    let arreglo = []
+
+    arreglo[0] = document.getElementById("input-1").value
+    arreglo[1] = document.getElementById("input-2").value
+    arreglo[2] = document.getElementById("input-3").value
+    arreglo[3] = document.getElementById("input-4").value
+
+    for (let i = 0; i <4; i++){
+            arreglo[] = document.getElementById("p-1").value   
+    }
+
+    
+    document.getElementById("p-1").innerHTML = arreglo[0]
 }
